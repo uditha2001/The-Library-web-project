@@ -1,0 +1,177 @@
+.body {
+        font-family: sans-serif;
+}
+
+.top {
+        
+        background-image: url("im1.jpg");
+        
+        height:200px;
+}
+    
+.image {
+            
+            height:200px;
+            width:380px;
+            float:left;
+            
+
+ } 
+.search {
+        
+            height:200px;
+            width: 1000px;
+            float:right;
+
+
+}  
+#im1{
+    height:75px;
+    width:150px;
+    padding-left:150px;
+    margin-top:38px;
+    
+
+} 
+ 
+#searchbar {
+    margin-top: 65px;
+    width:500px;
+    height:20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    background-color: white;
+
+
+}
+
+
+#searchbar > input {
+            flex:1;
+            height:40px;
+            border:0;
+            outline:none;
+            font-size: 18px;
+            background: rgba(255,255,255,0.2);
+
+
+} 
+
+#searchbar button img{
+            width:25px;
+
+}
+
+#searchbar button{
+                border:0;
+                border-radius: 50% ;
+                width:30px;
+                height:30px;
+                background: white;
+}
+
+
+.top1{
+        background: yellow;
+        height:500px;
+
+}
+
+#img1 {
+        margin-top: 100px;
+        margin-left: 300px;
+        margin-bottom: 100px;
+
+
+}
+
+.category {
+                
+                background:black;
+                text-align: center;
+                
+                height: 90px;
+                
+
+}
+.category ul{
+        display:inline-flex;
+        list-style: none;
+        color:white;
+}
+.category ul li{
+        width:120px;
+        
+       margin: 15px;
+       padding: 15px;
+
+        
+        
+        
+}
+.category ul li a{
+                text-decoration: none;
+                color:white;
+
+}
+.active, .category ul li a:hover
+{
+        color: aquamarine;
+        border-radius: 3px;
+}
+
+.category .fa
+{
+        margin-right:8px;
+}
+.sub-menu-1
+{
+        display:none;
+}
+.category ul li:hover .sub-menu-1
+{
+        display:block;
+        position: absolute;
+        background: black;
+        margin-top: 15px;
+        margin-left: -15px;
+               }
+.category ul li:hover .sub-menu-1 ul{
+        display: block ;
+        
+        margin:10px;
+        
+        
+}
+.category ul li:hover .sub-menu-1 ul li{
+        padding: 10px;
+        width:150px;
+        border-radius: 0;
+        border-bottom: 1px dotted ;
+        background: transparent;
+        text-align: left;
+
+        
+}
+.category ul li:hover .sub-menu-1 ul li:last-child
+{
+        border-bottom: none;
+}
+.category ul li:hover .sub-menu-1 ul li a:hover
+{
+        color: aqua;
+}
+.fa-angle-right
+{
+        float:right;
+}
+#log{
+        color:black;
+        background: lightblue;
+}
+#lo {
+        color:white;
+        background: black;
+}

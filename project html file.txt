@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head><title>openlibrary</title>
+<link rel="stylesheet" href="html.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
+</head>
+<body>
+ <div class="top">
+    
+    <div class="image">
+        <img id="im1" src="download.jpeg">
+
+
+
+    </div>
+    <div class="search">
+        <form id="searchbar">
+            
+            <input type="search" placeholder="search here">
+            <button type="submit" ><img src="search.png" width=""></button>
+           
+
+        </form>
+</div>
+ </div> 
+ <div class="category">
+       <ul>
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user" ></i>About Us</a>
+            <div class="sub-menu-1">
+                    <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vission</a></li>
+                    <li><a href="#">Team</a></li>
+
+
+                    </ul>
+
+
+
+
+            </div>
+            
+            
+            
+            </li>
+            <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                            <li><a href="#">mobile apps</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Data base</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Team</a><i class="fa fa-angle-right"></i></li>
+
+
+                    </ul>
+
+            </li>
+            <li><a href="#">Mybooks</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><button type="Login" id="lo">Login</button></li>
+            <li><button type="login" id="log">sign up</button></li>
+            <li><a href="#"><i class="fa fa-user-circle"></i>User</a></li>
+       </ul>
+ </div>
+ 
+ <div class="top1">
+    <img id="img1" src="books images\p1.jpg" height="200px">
+
+
+
+
+
+</div>  
+
+
+
+
+</body>
+
+
+
+</html>
